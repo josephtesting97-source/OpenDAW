@@ -15,24 +15,11 @@
 
 ## Overview
 
-**OpenDAW** is a next-generation Digital Audio Workstation designed for modern music production, audio engineering, podcasting, and cinematic sound design.
-
-Built with a streamlined workflow, ultra-low latency audio engine, and modular creative tools, OpenDAW combines professional studio capabilities with an intuitive interface that scales from beginners to advanced producers.
-
-Whether you're recording vocals, producing electronic music, editing podcasts, or mixing orchestral scores, OpenDAW provides the flexibility and performance needed for professional audio production.
+**OpenDAW** is a lightweight still in progress **Digital Audio Workstation** for quick recording sessions.
 
 ---
 
 ## Features
-
-### 🎛 Professional Mixing Environment
-
-* Unlimited audio and MIDI tracks
-* 64-bit floating point audio engine
-* Advanced routing and bussing
-* Real-time effect processing
-* Automation lanes with curve editing
-* Multi-monitor workspace support
 
 ### 🎹 MIDI & Composition Tools
 
@@ -47,23 +34,17 @@ Whether you're recording vocals, producing electronic music, editing podcasts, o
 
 * Parametric EQ
 * Multiband compressor
-* Vintage limiter
-* Convolution reverb
-* Tape saturation
 * Noise reduction tools
 
 ### ⚡ Performance Optimized
 
-* GPU-accelerated rendering
 * Ultra-low latency monitoring
-* Background project autosave
 * Smart CPU load balancing
-
 ---
 
 # Installation
 
-Not needed since this is a lightweigh portable installation
+Not needed since this is a lightweigh portable release
 
 ```
 
@@ -102,9 +83,6 @@ OpenDAW supports industry-standard plugin formats:
 | Format | Supported |
 | ------ | --------- |
 | VST3   | ✅         |
-| AU     | ✅         |
-| LV2    | ✅         |
-| CLAP   | ✅         |
 
 ---
 
@@ -116,22 +94,6 @@ OpenDAW supports industry-standard plugin formats:
 | RAM       | 4 GB            | 16 GB               |
 | Storage   | 2 GB            | SSD                 |
 | Audio     | ASIO/CoreAudio  | Dedicated Interface |
-
----
-
-# Architecture
-
-```text
- ┌─────────────────────────────┐
- │        OpenDAW UI           │
- ├─────────────────────────────┤
- │     Real-Time Audio Engine  │
- ├─────────────────────────────┤
- │ Plugin Host & DSP Pipeline  │
- ├─────────────────────────────┤
- │ Platform Audio Backends     │
- └─────────────────────────────┘
-```
 
 ---
 
@@ -147,19 +109,6 @@ OpenDAW supports industry-standard plugin formats:
 | Save Project | Ctrl/Cmd + S |
 
 ---
-
-# Roadmap
-
-* [ ] AI-powered stem separation
-* [ ] Integrated mastering assistant
-* [ ] Mobile companion app
-* [ ] Spatial audio mixing
-* [ ] Native video editing timeline
-* [ ] Marketplace for presets and plugins
-
----
-
-
 
 # License
 
