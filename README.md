@@ -75,9 +75,9 @@ Not needed since this is a lightweigh portable installation
 
 ```powershell
 # Launch OpenDAW and set workspace
-.\OpenDaw.exe Documents 
+.\OpenDaw.exe $env:USERPROFILE\\Documents
 # or
-.\OpenDaw.exe Downloads 
+.\OpenDaw.exe $env:USERPROFILE\\Desktop 
 ```
 
 ### Recording Audio
