@@ -1,6 +1,6 @@
 # OpenDAW
 
-### Professional Digital Audio Workstation for Creators, Producers, and Sound Designers
+### Digital Audio Workstation for Beginners and Vintage audio lovers
 
 ![OpenDAW Banner](https://dummyimage.com/1200x320/111827/f3f4f6\&text=OpenDAW+-+Create+Without+Limits)
 
@@ -15,7 +15,7 @@
 
 ## Overview
 
-**OpenDAW** is a lightweight still in progress **Digital Audio Workstation** for quick recording sessions.
+**OpenDAW** is a lightweight still in progress **Digital Audio Workstation** for quick recording sessions. More akin to a 4 track recording, OpenDAW contains only the bare minimum to make recordings, ideal for beginners or those who like that vintage feeling of recording with limited hardware.
 
 ---
 
